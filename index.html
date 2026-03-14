@@ -1,74 +1,157 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>TSRS Trading Engine</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TSRS Trading Engine</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<style>
-body{
-background:#0b0f1a;
-color:white;
-font-family:Arial;
-text-align:center;
-padding:40px;
-}
+  <style>
+    body{
+      background:#0b0f1a;
+      color:white;
+      font-family:Arial, sans-serif;
+      text-align:center;
+      padding:40px 20px;
+      margin:0;
+    }
 
-h1{
-font-size:42px;
-color:#00d4ff;
-}
+    h1{
+      font-size:42px;
+      color:#00d4ff;
+      margin:20px 0 10px 0;
+    }
 
-p{
-font-size:18px;
-color:#ccc;
-}
+    h2{
+      font-size:30px;
+      color:#00d4ff;
+      margin:0 0 12px 0;
+    }
 
-button{
-background:#00d4ff;
-border:none;
-padding:15px 30px;
-font-size:18px;
-border-radius:8px;
-cursor:pointer;
-margin-top:20px;
-}
+    h3{
+      font-size:22px;
+      color:#00d4ff;
+      margin:0 0 10px 0;
+    }
 
-button:hover{
-background:#00a6cc;
-}
+    p{
+      font-size:18px;
+      color:#ccc;
+      line-height:1.5;
+    }
 
-img{
-width:260px;
-margin-bottom:20px;
-border-radius:10px;
-}
-</style>
+    button{
+      background:#00d4ff;
+      border:none;
+      padding:15px 30px;
+      font-size:18px;
+      border-radius:8px;
+      cursor:pointer;
+      margin-top:20px;
+      color:#000;
+    }
 
+    button:hover{
+      background:#00a6cc;
+    }
+
+    img{
+      width:260px;
+      margin-bottom:20px;
+      border-radius:10px;
+      max-width:100%;
+      height:auto;
+    }
+
+    .section{
+      max-width:900px;
+      margin:50px auto 0 auto;
+      padding:24px;
+      background:#10182a;
+      border:1px solid #1d2942;
+      border-radius:14px;
+    }
+
+    .card{
+      background:#0f1524;
+      border:1px solid #1d2942;
+      border-radius:12px;
+      padding:18px;
+      margin-top:18px;
+      text-align:left;
+    }
+
+    .card p{
+      margin:0;
+      font-size:16px;
+    }
+
+    .muted{
+      color:#9aa7bd;
+      font-size:16px;
+    }
+
+    iframe{
+      width:100%;
+      height:420px;
+      border:none;
+      border-radius:10px;
+      margin-top:15px;
+      background:#0b0f1a;
+    }
+
+    .spacer{
+      height:10px;
+    }
+  </style>
 </head>
 
 <body>
-<img src="file_00000000a9fc71fda41f4909cc7def35.png" width="160">
-<h1>⚓ TSRS Trading Engine</h1>
 
-<p>The Salty Rogue Sailor trading ecosystem.</p>
+  <img src="file_00000000a9fc71fda41f4909cc7def35.png" alt="TSRS Logo">
 
-<p>Automation • Trading Tools • Tokinomics Ecosystem</p>
+  <h1>⚓ TSRS Trading Engine</h1>
 
-<a href="https://t.me/TSRSPUMP_BOT">
-<button>Launch Trading Engine</button>
-</a>
+  <p>The Salty Rogue Sailor trading ecosystem.</p>
 
-<p style="margin-top:40px;">Follow updates:</p>
+  <p>Automation • Trading Tools • Tokinomics Ecosystem</p>
 
-<p>
-<a href="https://x.com/TheSaltyRogueSailor" style="color:#00d4ff;">
-@TheSaltyRogueSailor
-</a>
-</p>
+  <a href="https://t.me/TSRSPUMP_BOT">
+    <button>Launch Trading Engine</button>
+  </a>
 
-<p style="margin-top:50px;color:#666;">
-Stay Salty ⚓
-</p>
+  <div class="section">
+    <h2>⚡ Market Dashboard</h2>
+    <p class="muted">Live Solana market activity for the TSRS Trading Engine.</p>
+
+    <div class="card">
+      <h3>SOL Price Chart</h3>
+      <p class="muted">Monitor Solana price action directly from the TSRS command page.</p>
+      <iframe
+        src="https://www.tradingview.com/widgetembed/?symbol=BINANCE:SOLUSDT&interval=60&theme=dark"
+        allowtransparency="true">
+      </iframe>
+    </div>
+
+    <div class="card">
+      <h3>Trending Tokens</h3>
+      <p>• Pump scanner coming soon</p>
+      <div class="spacer"></div>
+      <p>• Liquidity monitor coming soon</p>
+      <div class="spacer"></div>
+      <p>• Volume movers coming soon</p>
+    </div>
+  </div>
+
+  <p style="margin-top:40px;">Follow updates:</p>
+
+  <p>
+    <a href="https://x.com/TheSaltyRogueSailor" style="color:#00d4ff;">
+      @TheSaltyRogueSailor
+    </a>
+  </p>
+
+  <p style="margin-top:50px;color:#666;">
+    Stay Salty ⚓
+  </p>
 
 </body>
 </html>

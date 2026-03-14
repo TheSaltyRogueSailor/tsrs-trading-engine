@@ -1,224 +1,278 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>TSRS Trading Engine</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <style>
-    body{
-      background:#0b0f1a;
-      color:white;
-      font-family:Arial, sans-serif;
-      text-align:center;
-      padding:40px 20px;
-      margin:0;
-    }
+<title>TSRS Trading Engine</title>
 
-    h1{
-      font-size:42px;
-      color:#00d4ff;
-      margin-top:20px;
-      margin-bottom:10px;
-    }
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    h2{
-      color:#00d4ff;
-      margin-top:0;
-      margin-bottom:12px;
-      font-size:30px;
-    }
+<style>
 
-    h3{
-      color:#00d4ff;
-      margin-top:0;
-      font-size:22px;
-    }
+body{
+background:#0b0f1a;
+color:white;
+font-family:Arial, sans-serif;
+text-align:center;
+padding:40px 20px;
+margin:0;
+}
 
-    p{
-      font-size:18px;
-      color:#ccc;
-      line-height:1.5;
-    }
+h1{
+font-size:42px;
+color:#00d4ff;
+margin-top:20px;
+}
 
-    img{
-      width:260px;
-      border-radius:10px;
-      margin-bottom:20px;
-      max-width:100%;
-      height:auto;
-    }
+h2{
+color:#00d4ff;
+margin-top:40px;
+}
 
-    button{
-      background:#00d4ff;
-      border:none;
-      padding:15px 30px;
-      font-size:18px;
-      border-radius:8px;
-      cursor:pointer;
-      margin-top:20px;
-      color:#000;
-    }
+p{
+font-size:18px;
+color:#ccc;
+}
 
-    button:hover{
-      background:#00a6cc;
-    }
+img{
+width:260px;
+border-radius:10px;
+margin-bottom:20px;
+}
 
-    .section{
-      max-width:950px;
-      margin:50px auto;
-      padding:25px;
-      background:#10182a;
-      border-radius:14px;
-      border:1px solid #1b2740;
-    }
+button{
+background:#00d4ff;
+border:none;
+padding:15px 30px;
+font-size:18px;
+border-radius:8px;
+cursor:pointer;
+margin-top:20px;
+color:#000;
+}
 
-    .card{
-      background:#0f1524;
-      border-radius:12px;
-      padding:20px;
-      margin-top:20px;
-      border:1px solid #1b2740;
-      text-align:left;
-    }
+button:hover{
+background:#00a6cc;
+}
 
-    .grid{
-      display:grid;
-      grid-template-columns:1fr 1fr;
-      gap:20px;
-    }
+.section{
+max-width:950px;
+margin:50px auto;
+padding:25px;
+background:#10182a;
+border-radius:14px;
+}
 
-    iframe{
-      width:100%;
-      height:420px;
-      border:none;
-      border-radius:10px;
-      margin-top:15px;
-      background:#000;
-    }
+.card{
+background:#0f1524;
+border-radius:12px;
+padding:20px;
+margin-top:20px;
+}
 
-    .link{
-      color:#00d4ff;
-      text-decoration:none;
-      font-size:18px;
-    }
+iframe{
+width:100%;
+height:420px;
+border:none;
+border-radius:10px;
+margin-top:15px;
+}
 
-    .link:hover{
-      text-decoration:underline;
-    }
+.link{
+color:#00d4ff;
+text-decoration:none;
+font-size:18px;
+}
 
-    .pill{
-      display:inline-block;
-      padding:8px 14px;
-      margin:6px;
-      border-radius:999px;
-      background:#0f1524;
-      border:1px solid #1b2740;
-      color:#00d4ff;
-      font-size:15px;
-    }
+.link:hover{
+text-decoration:underline;
+}
 
-    .small{
-      font-size:15px;
-      color:#9fb0c7;
-    }
+.pill{
+display:inline-block;
+padding:8px 14px;
+margin:6px;
+border-radius:999px;
+background:#0f1524;
+border:1px solid #1b2740;
+color:#00d4ff;
+font-size:15px;
+}
 
-    @media (max-width: 800px){
-      .grid{
-        grid-template-columns:1fr;
-      }
+</style>
 
-      h1{
-        font-size:34px;
-      }
-
-      h2{
-        font-size:26px;
-      }
-    }
-  </style>
 </head>
 
 <body>
 
-  <img src="file_00000000a9fc71fda41f4909cc7def35.png" alt="TSRS Logo">
+<img src="file_00000000a9fc71fda41f4909cc7def35.png">
 
-  <h1>⚓ TSRS Trading Engine</h1>
+<h1>⚓ TSRS Trading Engine</h1>
 
-  <p>The Salty Rogue Sailor trading ecosystem.</p>
-  <p>Automation • Trading Tools • Tokinomics Ecosystem</p>
+<p>The Salty Rogue Sailor trading ecosystem.</p>
 
-  <a href="https://t.me/TSRSPUMP_BOT" target="_blank">
-    <button>Launch Trading Engine</button>
-  </a>
+<p>Automation • Trading Tools • Tokinomics Ecosystem</p>
 
-  <div class="section">
-    <h2>⚡ Market Dashboard</h2>
-    <p class="small">Live Solana market activity for the TSRS Trading Engine.</p>
+<a href="https://t.me/TSRSPUMP_BOT">
+<button>Launch Trading Engine</button>
+</a>
 
-    <div class="card">
-      <h3>SOL Price Chart</h3>
-      <p class="small">Monitor Solana price action directly.</p>
-      <iframe src="https://www.tradingview.com/widgetembed/?symbol=BINANCE:SOLUSDT&interval=60&theme=dark"></iframe>
-    </div>
+<div class="section">
 
-    <div class="card">
-      <h3>Trending Tokens</h3>
-      <p>• Pump scanner coming soon</p>
-      <p>• Liquidity monitor coming soon</p>
-      <p>• Volume movers coming soon</p>
-    </div>
-  </div>
+<h2>Market Dashboard</h2>
 
-  <div class="section">
-    <h2>🚨 TSRS Pump Radar</h2>
-    <p class="small">Quick access to the fastest Solana discovery tools.</p>
+<div class="card">
 
-    <div class="grid">
-      <div class="card">
-        <h3>Live Market Tools</h3>
-        <p><a class="link" href="https://pump.fun" target="_blank">Open Pump.fun</a></p>
-        <p><a class="link" href="https://dexscreener.com/solana" target="_blank">Dexscreener Solana</a></p>
-        <p><a class="link" href="https://birdeye.so" target="_blank">Birdeye Market Scanner</a></p>
-      </div>
+<h3>SOL Price Chart</h3>
 
-      <div class="card">
-        <h3>TSRS Strategy</h3>
-        <p>• Watch tokens launched within 5 minutes</p>
-        <p>• Verify liquidity before entry</p>
-        <p>• Execute trades through TSRS bot</p>
-      </div>
-    </div>
-  </div>
+<p>Monitor Solana price action directly.</p>
 
-  <div class="section">
-    <h2>🖥 TSRS Terminal View</h2>
-    <p class="small">This is the next-level feel: direct market flow on the page.</p>
+<iframe src="https://www.tradingview.com/widgetembed/?symbol=BINANCE:SOLUSDT&interval=60&theme=dark"></iframe>
 
-    <div>
-      <span class="pill">New Launches</span>
-      <span class="pill">Liquidity Check</span>
-      <span class="pill">Volume Movers</span>
-      <span class="pill">Radar Mode</span>
-    </div>
+</div>
 
-    <div class="card">
-      <h3>DexScreener Terminal</h3>
-      <p class="small">Use this as your on-page market view while running TSRS.</p>
-      <iframe src="https://dexscreener.com/solana?embed=1&theme=dark"></iframe>
-    </div>
-  </div>
+<div class="card">
 
-  <p style="margin-top:40px;">Follow updates</p>
+<h3>Trending Tokens</h3>
 
-  <p>
-    <a class="link" href="https://x.com/TheSaltyRogueSailor" target="_blank">
-      @TheSaltyRogueSailor
-    </a>
-  </p>
+<p>• Pump scanner coming soon</p>
+<p>• Liquidity monitor coming soon</p>
+<p>• Volume movers coming soon</p>
 
-  <p style="margin-top:50px;color:#666;">
-    Stay Salty ⚓
-  </p>
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>🚨 TSRS Pump Radar</h2>
+
+<div class="card">
+
+<h3>Live Market Tools</h3>
+
+<p>
+<a class="link" href="https://pump.fun" target="_blank">Open Pump.fun</a>
+</p>
+
+<p>
+<a class="link" href="https://dexscreener.com/solana" target="_blank">Dexscreener Solana</a>
+</p>
+
+<p>
+<a class="link" href="https://birdeye.so" target="_blank">Birdeye Market Scanner</a>
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>TSRS Strategy</h3>
+
+<p>• Watch tokens launched within 5 minutes</p>
+<p>• Verify liquidity before entry</p>
+<p>• Execute trades through TSRS bot</p>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>🖥 TSRS Terminal</h2>
+
+<span class="pill">New Launches</span>
+<span class="pill">Liquidity Check</span>
+<span class="pill">Volume Movers</span>
+<span class="pill">Radar Mode</span>
+
+<div class="card">
+
+<h3>DexScreener Terminal</h3>
+
+<p>Live Solana pairs</p>
+
+<iframe src="https://dexscreener.com/solana?embed=1&theme=dark"></iframe>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>🔥 Market Heatmap</h2>
+
+<div class="card">
+
+<h3>Market Intelligence</h3>
+
+<p>
+<a class="link" href="https://birdeye.so" target="_blank">Open Birdeye Heatmap</a>
+</p>
+
+<p>
+<a class="link" href="https://dexscreener.com/solana" target="_blank">View Hot Solana Pairs</a>
+</p>
+
+<p>Track where market attention is moving.</p>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>🚀 New Token Radar</h2>
+
+<div class="card">
+
+<h3>Fresh Launch Sources</h3>
+
+<p>
+<a class="link" href="https://pump.fun" target="_blank">Pump.fun Launches</a>
+</p>
+
+<p>
+<a class="link" href="https://dexscreener.com/solana" target="_blank">Dexscreener New Pairs</a>
+</p>
+
+<p>
+<a class="link" href="https://birdeye.so" target="_blank">Birdeye Discovery</a>
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Radar Checklist</h3>
+
+<p>• Token age under 5 minutes</p>
+<p>• Liquidity visible</p>
+<p>• Volume moving early</p>
+<p>• No red flags before entry</p>
+
+</div>
+
+</div>
+
+<p style="margin-top:40px;">Follow updates</p>
+
+<p>
+
+<a class="link" href="https://x.com/TheSaltyRogueSailor" target="_blank">
+
+@TheSaltyRogueSailor
+
+</a>
+
+</p>
+
+<p style="margin-top:50px;color:#666;">
+
+Stay Salty ⚓
+
+</p>
 
 </body>
+
 </html>
